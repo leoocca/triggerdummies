@@ -33,27 +33,27 @@ android {
         trigger1 {
             dimension "trigger"
             applicationId "com.triggers.one"
-            resValue "string", "app_name", "Trigger One"
+            resValue "string", "app_name", "Zappa" 
         }
         trigger2 {
             dimension "trigger"
             applicationId "com.triggers.two"
-            resValue "string", "app_name", "Trigger Two"
+            resValue "string", "app_name", "Mingus"
         }
         trigger3 {
             dimension "trigger"
             applicationId "com.triggers.three"
-            resValue "string", "app_name", "Trigger Three"
+            resValue "string", "app_name", "Coltrane"
         }
         trigger4 {
             dimension "trigger"
             applicationId "com.triggers.four"
-            resValue "string", "app_name", "Trigger Four"
+            resValue "string", "app_name", "Hendrix"
         }
         trigger5 {
             dimension "trigger"
             applicationId "com.triggers.five"
-            resValue "string", "app_name", "Trigger Five"
+            resValue resValue "string", "app_name", "Bowie"
         }
     }
 
