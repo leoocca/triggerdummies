@@ -17,7 +17,6 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            // Debug signing so unsigned-release isn't blocked; fine for sideloading.
             signingConfig signingConfigs.debug
         }
     }
@@ -33,7 +32,7 @@ android {
         trigger1 {
             dimension "trigger"
             applicationId "com.triggers.one"
-            resValue "string", "app_name", "Zappa" 
+            resValue "string", "app_name", "Zappa"
         }
         trigger2 {
             dimension "trigger"
@@ -53,11 +52,10 @@ android {
         trigger5 {
             dimension "trigger"
             applicationId "com.triggers.five"
-            resValue resValue "string", "app_name", "Bowie"
+            resValue "string", "app_name", "Bowie"
         }
     }
 
-    // Output APKs with clean filenames like Trigger-One-release.apk
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
             def flavorName = variant.flavorName.capitalize()
