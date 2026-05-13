@@ -27,7 +27,7 @@ jobs:
         with:
           gradle-version: '8.7'
 
-- name: Generate Gradle wrapper
+      - name: Generate Gradle wrapper
         run: |
           mkdir -p /tmp/wrapper-gen
           cd /tmp/wrapper-gen
